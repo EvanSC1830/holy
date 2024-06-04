@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://www.churchofjesuschrist.org/imgs/7c2f23917fe011ee8ac5eeeeac1e9d77c7460c93/full/320%2C/0/default);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  max-width: 1200px;
+  max-height: 1000px;
+}
+
+span {
+  background-color: gray;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+
+.title {
+    color: bisque;
+}
+
+p {
+  text-indent: 20px;
+  color: white;
+}
+
+.msg {
+  display: flex;
+  flex-direction: row;
+}
+
+.msg-rs {
+  margin: 5px;
+  width: 180px;
+  border: 1px solid;
+  padding: 2px 22px 2px 22px;
+}
+
+.prop {
+  height: 250px;
+  width: 180px;
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+}

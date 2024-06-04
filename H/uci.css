@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+img {
+    width: 180px;
+    border-radius: 30px;
+}
+
+div {
+    width: 100px;
+    text-align: center;
+    color: black;
+}
+
+a:link {
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: red;
+}
+
+a:hover {
+    background-color: pink;
+    color: white;
+}
