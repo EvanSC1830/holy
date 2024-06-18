@@ -1,25 +1,46 @@
 body {
-    background-color: bisque;
+  background-image: url(https://www.churchofjesuschrist.org/imgs/375e0d6fac30fd441085028fa716a5ea4d04fbba/full/640%2C/0/default);
+  max-width: 1200px;
 }
 
-img {
-    width: 180px;
-    border-radius: 30px;
+h1 {
+  font-weight: bold;
+  color: azure;
+}
+
+h2 {
+  color: bisque;
 }
 
 div {
-    width: 100px;
-    text-align: center;
-    color: black;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+
+ul  {
+  margin: 100px 0px;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  width: 600px;
+}
+
+.card {
+  background-color: transparent;
+  margin: 25px;
 }
 
 a:link {
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: red;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(206, 197, 96);
 }
 
 a:hover {
-    background-color: pink;
-    color: white;
+  background-color: pink;
+  color: white;
 }

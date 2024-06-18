@@ -1,7 +1,6 @@
 body {
   background-image: url(https://www.churchofjesuschrist.org/imgs/7c2f23917fe011ee8ac5eeeeac1e9d77c7460c93/full/320%2C/0/default);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   font-size: 20px;
   max-width: 1200px;
   max-height: 1000px;
@@ -19,7 +18,7 @@ h1 {
 }
 
 .title {
-    color: bisque;
+  color: bisque;
 }
 
 p {
